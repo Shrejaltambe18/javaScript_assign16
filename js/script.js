@@ -22,3 +22,5 @@ function prev() {
     }
     slide.src = images[index];
 }
+
+setInterval(next, 3000);
