@@ -33,8 +33,15 @@ body {
     margin-left: 10px;
 }
 
+.icon-prev:hover {
+    transform: scale(0.8) translateX(-10px);
+}
+
 .icon-next {
     right: 0;
     margin-right: 10px;
 }
 
+.icon-next:hover {
+    transform: scale(0.8) translateX(10px);
+}
