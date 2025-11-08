@@ -12,3 +12,13 @@ function next() {
     }
     slide.src = images[index];
 }
+
+function prev() {
+    if (index > 0) {
+        index--;
+    }
+    else {
+        index = images.length - 1;
+    }
+    slide.src = images[index];
+}
